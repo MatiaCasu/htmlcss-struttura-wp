@@ -8,7 +8,6 @@
 .container{
   width: 60%;
   margin: 10px auto;
-  height: 1000px;
   background-color: lightgreen;
 }
 /* /CONTENITORE */
@@ -16,6 +15,10 @@
 .head{
   height: 50px;
   background-color: pink;
-  margin: 10px 0;
 }
 /* /INTESTAZIONE*/
+.empty{
+  height: 300px;
+  background-color: yellow;
+  margin: 10px 0;
+}

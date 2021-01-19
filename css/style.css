@@ -4,34 +4,40 @@
   box-sizing: border-box;
 }
 /* RESET */
+
 /* CONTENITORE*/
 .container{
   width: 60%;
-  margin: 10px auto;
+  margin: 20px auto;
 }
+
 .clearfix::after{
   content: "";
   clear: both;
   display: block;
 }
 /* /CONTENITORE */
+
 /* INTESTAZIONE*/
 .head{
   height: 50px;
   background-color: pink;
 }
 /* /INTESTAZIONE*/
+
 /* SEZIONE 1 */
 .empty{
   height: 300px;
   background-color: yellow;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 /* /SEZIONE 1 */
+
 /* SEZIONE 2 */
 .full{
   background-color: blue;
 }
+
 .full > div{
   background-color: lightblue;
   float: left;
@@ -47,9 +53,18 @@
   width: 20%;
   height: 300px;
 }
+
 .full-center{
   width: calc(60% - 20px);
   height: 300px;
   margin: 0 10px;
 }
 /* /SEZIONE 2 */
+
+/* FOOTER */
+.foot{
+  height: 25px;
+  background-color: purple;
+  margin-top: 5px;
+}
+/* /FOOTER */

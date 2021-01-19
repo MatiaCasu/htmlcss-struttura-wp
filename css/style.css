@@ -8,7 +8,7 @@
 .container{
   width: 60%;
   margin: 10px auto;
-  background-color: lightgreen;
+  background-color: lightgrey;
 }
 /* /CONTENITORE */
 /* INTESTAZIONE*/
@@ -21,4 +21,11 @@
   height: 300px;
   background-color: yellow;
   margin: 10px 0;
+}
+.full{
+  background-color: lightblue;
+}
+.full-head{
+  height: 25px;
+  border-bottom: 5px solid blue;
 }
